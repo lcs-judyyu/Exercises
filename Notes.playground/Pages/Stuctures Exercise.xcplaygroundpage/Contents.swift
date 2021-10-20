@@ -20,19 +20,19 @@ var jackJohnson = HockeyCard(name: "Jack Johnson",
 
 // make instance of "Matt Murray"
 var mattMurray = HockeyCard(name: "Matt Murray",
-                             age: 25,
-                             copInMillions: 6.3 * 4,
-                             projWARPercentage: 15,
-                             eVOrEVOffPercentage: 15,
-                             pKPercentage: 56)
+                            age: 25,
+                            copInMillions: 6.3 * 4,
+                            projWARPercentage: 15,
+                            eVOrEVOffPercentage: 15,
+                            pKPercentage: 56)
 
 // make instance of "Jack Johnson"
 var victorHedman = HockeyCard(name: "Victor Hedman",
-                             age: 29,
+                              age: 29,
                               copInMillions: 7.9 * 5,
-                             projWARPercentage: 97,
-                             eVOrEVOffPercentage: 91,
-                             pKPercentage: 97)
+                              projWARPercentage: 97,
+                              eVOrEVOffPercentage: 91,
+                              pKPercentage: 97)
 
 jackJohnson.age
 mattMurray.eVOrEVOffPercentage
