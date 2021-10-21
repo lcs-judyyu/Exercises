@@ -12,6 +12,8 @@ struct LavenderView: View {
         Image("Lavender")
             .resizable()
             .scaledToFit()
+            .clipShape(Circle())
+            .blur(radius: 1, opaque: true)
     }
 }
 

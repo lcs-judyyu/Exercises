@@ -12,6 +12,7 @@ struct IceCreamView: View {
         Image("IceCream")
             .resizable()
             .scaledToFit()
+            .frame(width: 300, height: 500, alignment: .center)
     }
 }
 
