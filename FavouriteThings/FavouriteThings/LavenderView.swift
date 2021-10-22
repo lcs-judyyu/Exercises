@@ -19,6 +19,8 @@ struct LavenderView: View {
 
 struct LavenderView_Previews: PreviewProvider {
     static var previews: some View {
-        LavenderView()
+        NavigationView{
+            LavenderView()
+        }
     }
 }

@@ -18,6 +18,8 @@ struct IceCreamView: View {
 
 struct IceCreamView_Previews: PreviewProvider {
     static var previews: some View {
-        IceCreamView()
+        NavigationView{
+            IceCreamView()
+        }
     }
 }
