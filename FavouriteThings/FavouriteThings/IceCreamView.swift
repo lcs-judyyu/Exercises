@@ -9,10 +9,16 @@ import SwiftUI
 
 struct IceCreamView: View {
     var body: some View {
-        Image("IceCream")
-            .resizable()
-            .scaledToFit()
-            .frame(width: 300, height: 500, alignment: .center)
+        VStack {
+            Image("IceCream")
+                .resizable()
+                .scaledToFit()
+            
+            Text("Ice cream is my favourite dessert")
+            
+            Spacer()
+        }
+        .navigationTitle("Ice Cream!")
     }
 }
 

@@ -10,17 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Chinchilla")
-                .font(.largeTitle)
-                .bold()
-                ._automaticPadding()
-            
             Image("Chinchilla")
                 .resizable()
                 .scaledToFit()
                 .padding(8)
             
-            Text("Chinchillas are ")
+            Text("I have a chinchilla named Chocolate. (Not the one above) He is so cute!")
+                .frame(width: 300, height: 100, alignment: .center)
         
             Spacer()
         }

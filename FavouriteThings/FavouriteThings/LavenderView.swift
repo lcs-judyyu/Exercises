@@ -9,11 +9,19 @@ import SwiftUI
 
 struct LavenderView: View {
     var body: some View {
-        Image("Lavender")
-            .resizable()
-            .scaledToFit()
-            .clipShape(Circle())
-            .blur(radius: 1, opaque: true)
+        VStack {
+            Image("Lavender")
+                .resizable()
+                .scaledToFit()
+                .clipShape(Circle())
+            
+            Text("I LOVE lavender scent :)")
+                .frame(width: 400, height: 70, alignment: .center)
+                .padding(20)
+            
+            Spacer()
+        }
+        .navigationTitle("Lavender")
     }
 }
 
