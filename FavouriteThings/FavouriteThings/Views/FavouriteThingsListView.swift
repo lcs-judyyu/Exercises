@@ -10,15 +10,18 @@ import SwiftUI
 struct FavouriteThingsListView: View {
     var body: some View {
         List {
-            Text ("Chinchilla")
-            Text ("Ice Cream")
-            Text ("Lavender")
+            Text("Chinchilla")
+            Text("Ice Cream")
+            Text("Lavender")
         }
+        .navigationTitle("My Favourite Things")
     }
 }
 
 struct FavouriteThingsListView_Previews: PreviewProvider {
     static var previews: some View {
-        FavouriteThingsListView()
+        NavigationView {
+            FavouriteThingsListView()
+        }
     }
 }
