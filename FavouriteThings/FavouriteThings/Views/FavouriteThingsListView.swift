@@ -10,9 +10,17 @@ import SwiftUI
 struct FavouriteThingsListView: View {
     var body: some View {
         List {
-            Text("Chinchilla")
-            Text("Ice Cream")
-            Text("Lavender")
+            NavigationLink(destination: ContentView()) {
+                Text("Chinchilla")
+            }
+            
+            NavigationLink(destination: IceCreamView()) {
+                Text("Ice Cream")
+            }
+            
+            NavigationLink(destination: LavenderView()) {
+                Text("Lavender")
+            }
         }
         .navigationTitle("My Favourite Things")
     }

@@ -41,10 +41,10 @@
 		5A2D3C662727084500A4F119 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5A69618927270DD500D53FBA /* FavouriteThingsListView.swift */,
 				5A72899D2720612D00E9F8A8 /* ChinchillaView.swift */,
 				5A7289A92720653200E9F8A8 /* IceCreamView.swift */,
 				5A7289AB2720657B00E9F8A8 /* LavenderView.swift */,
-				5A69618927270DD500D53FBA /* FavouriteThingsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
