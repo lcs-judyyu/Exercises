@@ -21,6 +21,18 @@ struct FavouriteThingsListView: View {
             NavigationLink(destination: LavenderView()) {
                 Text("Lavender")
             }
+            
+            NavigationLink(destination: HotpotView()) {
+                Text("Hotpot")
+            }
+            
+            NavigationLink(destination: RamenView()) {
+                Text("Ramen")
+            }
+            
+            NavigationLink(destination: RosesView()) {
+                Text("Roses")
+            }
         }
         .navigationTitle("My Favourite Things")
     }
