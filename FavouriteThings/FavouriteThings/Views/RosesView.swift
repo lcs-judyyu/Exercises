@@ -14,11 +14,14 @@ struct RosesView: View {
                 
             }
         }
+        .navigationTitle("Roses")
     }
 }
 
 struct RosesView_Previews: PreviewProvider {
     static var previews: some View {
-        RosesView()
+        NavigationView {
+            RosesView()
+        }
     }
 }
