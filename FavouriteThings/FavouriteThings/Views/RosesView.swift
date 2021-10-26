@@ -11,7 +11,10 @@ struct RosesView: View {
     var body: some View {
         ScrollView {
             VStack {
-                
+                Image("Roses")
+                    .resizable()
+                    .scaledToFit()
+                    .clipShape(Circle())
             }
         }
         .navigationTitle("Roses")
