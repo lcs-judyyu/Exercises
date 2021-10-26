@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ScrollView {
-            VStack(alignment: .trailing, spacing: 20) {
+            VStack(spacing: 10) {
                 Text("Header here")
                     .textCase(.uppercase)
                     .font(Font.custom("Avenir Next", size: 26).weight(.heavy))
@@ -26,7 +26,7 @@ struct ContentView: View {
             HStack (alignment: .center, spacing: 15){
                 AsyncImage(url: URL(string: "https://placekitten.com/50/80"))
                     .frame(width: 50, height: 80, alignment: .bottomLeading)
-                    .padding(6)
+                    .padding(.leading, 20)
                 
                 Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. ")
                     .font(Font.custom("Avenir Next", size: 14).weight(.regular))
@@ -36,7 +36,7 @@ struct ContentView: View {
             }
             
             VStack {
-                AsyncImage(url: URL(string: "https://placekitten.com/380/200"))
+                AsyncImage(url: URL(string: "https://placekitten.com/380/250"))
                     .frame(alignment: .bottomLeading)
             }
         }
