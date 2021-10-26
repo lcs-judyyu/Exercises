@@ -19,6 +19,25 @@ struct ContentView: View {
                     .overlay(
                             RoundedRectangle(cornerRadius: 15)
                             .stroke(lineWidth: 2))
+                
+                Spacer()
+            }
+            
+            HStack (alignment: .center, spacing: 15){
+                AsyncImage(url: URL(string: "https://placekitten.com/50/80"))
+                    .frame(width: 50, height: 80, alignment: .bottomLeading)
+                    .padding(6)
+                
+                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. ")
+                    .font(Font.custom("Avenir Next", size: 14).weight(.regular))
+                
+                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. ")
+                    .font(Font.custom("Avenir Next", size: 14).weight(.regular))
+            }
+            
+            VStack {
+                AsyncImage(url: URL(string: "https://placekitten.com/380/200"))
+                    .frame(alignment: .bottomLeading)
             }
         }
     }
