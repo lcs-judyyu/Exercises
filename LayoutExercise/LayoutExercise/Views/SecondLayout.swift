@@ -9,7 +9,9 @@ import SwiftUI
 
 struct SecondLayout: View {
     var body: some View {
-        
+        ScrollView {
+            
+        }
     }
 }
 
