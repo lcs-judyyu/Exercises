@@ -7,10 +7,15 @@
 
 import SwiftUI
 
+extension Color {
+    static let merino = Color(red: 249 / 255, green: 245 / 255, blue: 239 / 255)
+    static let rawSienna = Color(red: 200 / 255, green: 133 / 255, blue: 66 / 255)
+}
+
 struct ContentView: View {
     var body: some View {
         ScrollView {
-            VStack(spacing: 10) {
+            VStack(spacing: 5) {
                 Text("Header here")
                     .textCase(.uppercase)
                     .font(Font.custom("Avenir Next", size: 26).weight(.heavy))
@@ -27,9 +32,13 @@ struct ContentView: View {
                 AsyncImage(url: URL(string: "https://placekitten.com/50/80"))
                     .frame(width: 50, height: 80, alignment: .bottomLeading)
                     .padding(.leading, 15)
-                
+                    .padding(.trailing, 15)
+                    .background(Color.yellow)
+
                 Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Malesuada proin libero nunc consequat interdum varius. Platea dictumst quisque sagittis purus sit amet. ")
                     .font(Font.custom("Avenir Next", size: 14).weight(.regular))
+                
+                Divider()
                 
                 Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Malesuada proin libero nunc consequat interdum varius. Platea dictumst quisque sagittis purus sit amet.")
                     .font(Font.custom("Avenir Next", size: 14).weight(.regular))
@@ -39,9 +48,10 @@ struct ContentView: View {
             VStack {
                 AsyncImage(url: URL(string: "https://placekitten.com/380/250"))
                     .frame(alignment: .bottomLeading)
-                    .padding(15)
+                    .padding(10)
             }
         }
+        .background(Color("LightBeige"))
     }
 }
 
