@@ -26,6 +26,7 @@ struct SecondLayout: View {
                     Text("Leo duis ut diam quam nulla porttitor massa id neque")
                     
                     Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Sit amet nisl purus in mollis nunc sed id. In tellus integer feugiat scelerisque varius morbi enim. Sit amet nisl purus in mollis nunc sed id. In tellus integer feugiat scelerisque varius morbi enim. Augue lacus viverra vitae congue eu consequat ac felis donec.")
+                        .font(Font.custom("Avenir Next", size: 14).weight(.regular))
                         .padding(.bottom, 100)
                     
                     Text("Leo duis ut diam quam nulla porttitor massa id neque. Quis commodo odio aenean sed adipiscing.")

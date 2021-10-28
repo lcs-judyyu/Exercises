@@ -18,10 +18,11 @@ struct ContentView: View {
                     //.border(Color.purple, width: 3)
                     .overlay(
                             RoundedRectangle(cornerRadius: 15)
-                            .stroke(lineWidth: 2))
-                
+                                .stroke(lineWidth: 2))
+    
                 Spacer()
             }
+            .padding(.top, 40)
             
             HStack (alignment: .bottom, spacing: 15){
                 AsyncImage(url: URL(string: "https://placekitten.com/50/80"))
@@ -50,6 +51,7 @@ struct ContentView: View {
                     .background(Color("DarkGreen"))
             }
         }
+        .edgesIgnoringSafeArea(.all)
         .background(Color("LightBeige"))
     }
 }
