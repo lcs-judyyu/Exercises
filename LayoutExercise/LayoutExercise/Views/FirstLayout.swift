@@ -25,7 +25,7 @@ struct ContentView: View {
             
             HStack (alignment: .bottom, spacing: 15){
                 AsyncImage(url: URL(string: "https://placekitten.com/50/80"))
-                    .frame(width: 50, height: 80, alignment: .bottomLeading)
+                    .frame(alignment: .bottomLeading)
                     .padding(.leading, 15)
                     .padding(.trailing, 15)
                     .background(Color("DarkOrange"))
