@@ -10,12 +10,34 @@ import SwiftUI
 struct ThirdLayout: View {
     var body: some View {
         ScrollView {
-            
+            ZStack {
+                Image("Fall")
+                    .scaledToFit()
+                    .opacity(0.6)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                
+                HStack(alignment: .top, spacing: 10) {
+                    Text("""
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor.
+""")
+                    Text("""
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor.
+""")
+                }
+                .padding(.leading, 20)
+                .padding(.trailing, 70)
+                .background(Color("DarkYellow"))
+                
+                VStack {
+                    AsyncImage(url: URL(string: "https://placekitten.com/90/100"))
+                }
+            }
         }
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
-//"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Vitae tortor condimentum lacinia quis vel eros. Leo duis ut diam quam nulla porttitor massa id neque. Quis commodo odio aenean sed adipiscing. Ac felis donec et odio. Hendrerit dolor magna eget est lorem ipsum. Purus faucibus ornare suspendisse sed nisi lacus sed. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Sit amet nisl purus in mollis nunc sed id. In tellus integer feugiat scelerisque varius morbi enim. Augue lacus viverra vitae congue eu consequat ac felis donec. Vitae semper quis lectus nulla at volutpat. "
+//"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor.  "
 
 struct ThirdLayout_Previews: PreviewProvider {
     static var previews: some View {
