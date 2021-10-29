@@ -15,11 +15,11 @@ struct ContentView: View {
                     .textCase(.uppercase)
                     .font(Font.custom("Avenir Next", size: 26).weight(.heavy))
                     .padding(15)
-                    //.border(Color.purple, width: 3)
+                //.border(Color.purple, width: 3)
                     .overlay(
-                            RoundedRectangle(cornerRadius: 15)
-                                .stroke(lineWidth: 2))
-    
+                        RoundedRectangle(cornerRadius: 15)
+                            .stroke(lineWidth: 2))
+                
                 Spacer()
             }
             .padding(.top, 40)
@@ -30,17 +30,23 @@ struct ContentView: View {
                     .padding(.leading, 15)
                     .padding(.trailing, 15)
                     .background(Color("DarkOrange"))
-
-                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Malesuada proin libero nunc consequat interdum varius. ")
+                
+                Text("""
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Malesuada proin libero nunc consequat interdum varius.
+""")
                     .font(Font.custom("Avenir Next", size: 14).weight(.regular))
                     .padding(.trailing,10)
+                    .lineSpacing(-2.0)
                 
                 Divider()
                 
-                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Malesuada proin libero nunc consequat interdum varius.")
+                Text("""
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Malesuada proin libero nunc consequat interdum varius.
+""")
                     .font(Font.custom("Avenir Next", size: 14).weight(.regular))
                     .padding(.trailing,10)
-
+                    .lineSpacing(-2.0)
+                
             }
             .background(Color("Sage"))
             
