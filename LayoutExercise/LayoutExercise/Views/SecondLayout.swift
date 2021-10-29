@@ -10,46 +10,61 @@ import SwiftUI
 struct SecondLayout: View {
     var body: some View {
         ScrollView {
-            HStack (alignment: .top, spacing: 10) {
+            HStack (alignment: .top, spacing: 13) {
                 VStack (alignment: .leading, spacing: 10){
                     Text("Leo duis ut diam quam ")
                         .lineSpacing(-2.0)
                     
-                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. ")
+                    Text("""
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus.
+""")
                         .font(Font.custom("Avenir Next", size: 9).weight(.light))
-                        .lineSpacing(-5.0)
+                        .lineSpacing(-1.0)
                         .padding(.bottom, 100)
+                        .background(Color("BlueGreen").opacity(0.7))
+                    
+                    Spacer()
                     
                     Text("Leo duis ut diam quam nulla porttitor massa id neque. Quis commodo odio aenean sed adipiscing.")
                     
-                    AsyncImage(url: URL(string: "https://placekitten.com/80/160"))
+                    AsyncImage(url: URL(string: "https://placekitten.com/95/250"))
                 }
                 
                 VStack (alignment: .leading, spacing: 10){
                     Text("Leo duis ut diam quam")
                     
-                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Sit amet nisl purus in mollis nunc sed id. ")
+                    Text("""
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate.
+""")
                         .font(Font.custom("Avenir Next", size: 9).weight(.light))
-                        .lineSpacing(-5.0)
+                        .lineSpacing(-1.0)
                         .padding(.bottom, 100)
+                    
+                    Spacer()
                     
                     Text("Leo duis ut diam quam nulla porttitor massa id neque. Quis commodo odio aenean sed adipiscing.")
                     
-                    AsyncImage(url: URL(string: "https://placekitten.com/80/100"))
+                    AsyncImage(url: URL(string: "https://placekitten.com/90/100"))
                 }
                 
                 VStack (alignment: .leading, spacing: 10){
                     Text("Leo duis ut diam quam")
                     
-                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Sit amet nisl purus in mollis nunc sed id. ")
+                    Text("""
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor.
+""")
+                        .lineLimit(nil)
                         .font(Font.custom("Avenir Next", size: 9).weight(.light))
-                        .lineSpacing(-5.0)
+                        .lineSpacing(-1.0)
                         .padding(.bottom, 100)
+                    
+                    Spacer()
                     
                     Text("Leo duis ut diam quam nulla porttitor massa id neque. Quis commodo odio aenean sed adipiscing.")
                     
-                    AsyncImage(url: URL(string: "https://placekitten.com/80/100"))
+                    AsyncImage(url: URL(string: "https://placekitten.com/90/100"))
                 }
+                .padding(.trailing, 10)
             }
             .padding(.leading, 70)
             .padding(.top, 40)
