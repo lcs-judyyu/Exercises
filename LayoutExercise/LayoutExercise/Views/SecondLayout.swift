@@ -21,8 +21,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 """)
                         .font(Font.custom("Avenir Next", size: 9).weight(.light))
                         .lineSpacing(-1.0)
-                        .padding(.bottom, 100)
-                        
+                        .padding(.bottom, 127)
                     
                     Spacer()
                     
@@ -30,9 +29,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                         .font(Font.custom("Avenir Next", size: 14).weight(.bold))
                         .lineSpacing(-2.0)
                     
-                    AsyncImage(url: URL(string: "https://placekitten.com/95/250"))
+                    AsyncImage(url: URL(string: "https://placekitten.com/95/350"))
                 }
-                .background(Color("BlueGreen").opacity(0.7))
+                .background(Color("BlueGreen"))
                 
                 VStack (alignment: .leading, spacing: 10){
                     Text("Leo duis ut diam quam")
@@ -52,8 +51,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                         .font(Font.custom("Avenir Next", size: 14).weight(.bold))
                         .lineSpacing(-2.0)
                     
-                    AsyncImage(url: URL(string: "https://placekitten.com/95/120"))
+                    AsyncImage(url: URL(string: "https://placekitten.com/95/170"))
                 }
+                .background(Color("Orange"))
                 
                 VStack (alignment: .leading, spacing: 10){
                     Text("Leo duis ut diam quam")
@@ -74,13 +74,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                         .font(Font.custom("Avenir Next", size: 14).weight(.bold))
                         .lineSpacing(-2.0)
                     
-                    AsyncImage(url: URL(string: "https://placekitten.com/90/180"))
+                    AsyncImage(url: URL(string: "https://placekitten.com/90/280"))
                 }
                 .padding(.trailing, 10)
+                .background(Color("Brown"))
             }
             .padding(.leading, 70)
             .padding(.top, 40)
         }
+        .background(Color("Beige"))
         .edgesIgnoringSafeArea(.all)
     }
 }
