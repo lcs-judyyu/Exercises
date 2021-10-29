@@ -13,7 +13,8 @@ struct SecondLayout: View {
             HStack (alignment: .top, spacing: 13) {
                 VStack (alignment: .leading, spacing: 10){
                     Text("Leo duis ut diam quam ")
-                        .lineSpacing(-2.0)
+                        .font(Font.custom("Avenir Next", size: 15).weight(.heavy))
+                        .lineSpacing(-4.0)
                     
                     Text("""
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus.
@@ -21,17 +22,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                         .font(Font.custom("Avenir Next", size: 9).weight(.light))
                         .lineSpacing(-1.0)
                         .padding(.bottom, 100)
-                        .background(Color("BlueGreen").opacity(0.7))
+                        
                     
                     Spacer()
                     
-                    Text("Leo duis ut diam quam nulla porttitor massa id neque. Quis commodo odio aenean sed adipiscing.")
+                    Text("Leo duis ut diam quam nulla porttit")
+                        .font(Font.custom("Avenir Next", size: 14).weight(.bold))
+                        .lineSpacing(-2.0)
                     
                     AsyncImage(url: URL(string: "https://placekitten.com/95/250"))
                 }
+                .background(Color("BlueGreen").opacity(0.7))
                 
                 VStack (alignment: .leading, spacing: 10){
                     Text("Leo duis ut diam quam")
+                        .font(Font.custom("Avenir Next", size: 15).weight(.heavy))
+                        .lineSpacing(-4.0)
                     
                     Text("""
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate.
@@ -42,13 +48,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                     
                     Spacer()
                     
-                    Text("Leo duis ut diam quam nulla porttitor massa id neque. Quis commodo odio aenean sed adipiscing.")
+                    Text("Leo duis ut diam quam nulla porttit")
+                        .font(Font.custom("Avenir Next", size: 14).weight(.bold))
+                        .lineSpacing(-2.0)
                     
-                    AsyncImage(url: URL(string: "https://placekitten.com/90/100"))
+                    AsyncImage(url: URL(string: "https://placekitten.com/95/120"))
                 }
                 
                 VStack (alignment: .leading, spacing: 10){
                     Text("Leo duis ut diam quam")
+                        .font(Font.custom("Avenir Next", size: 15).weight(.heavy))
+                        .lineSpacing(-4.0)
                     
                     Text("""
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et. Est ante in nibh mauris cursus mattis molestie a. Aenean et tortor at risus viverra adipiscing at in tellus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor.
@@ -60,9 +70,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
                     
                     Spacer()
                     
-                    Text("Leo duis ut diam quam nulla porttitor massa id neque. Quis commodo odio aenean sed adipiscing.")
+                    Text("Leo duis ut diam quam nulla porttit")
+                        .font(Font.custom("Avenir Next", size: 14).weight(.bold))
+                        .lineSpacing(-2.0)
                     
-                    AsyncImage(url: URL(string: "https://placekitten.com/90/100"))
+                    AsyncImage(url: URL(string: "https://placekitten.com/90/180"))
                 }
                 .padding(.trailing, 10)
             }
