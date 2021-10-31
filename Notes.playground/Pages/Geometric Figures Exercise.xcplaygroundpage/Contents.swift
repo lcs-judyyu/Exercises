@@ -23,7 +23,18 @@ struct Cone {
     }
 }
 
-let oneCone = Cone(name: "One Cone", pi: Double.pi, radius: 4.5, side: 8.3, height: 6.2)
+//Create Instances
+let oneCone = Cone(name: "First Cone",
+                   pi: Double.pi,
+                   radius: 4.5,
+                   side: 8.3,
+                   height: 6.2)
+
+let anotherCone = Cone(name: "Second Cone",
+                       pi: Double.pi,
+                       radius: 6.4,
+                       side: 10.6,
+                       height: 9.2)
 
 //Tests
 oneCone.name
@@ -32,5 +43,10 @@ oneCone.surfaceAreaOfLateralSurface
 oneCone.totalSurfaceArea
 oneCone.volume
 
+anotherCone.name
+anotherCone.surfaceAreaOfBase
+anotherCone.surfaceAreaOfLateralSurface
+anotherCone.totalSurfaceArea
+anotherCone.volume
 
 
