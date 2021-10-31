@@ -23,7 +23,7 @@ struct Cone {
     }
 }
 
-let oneCone = Cone(name: "One Cone", pi: Double.pi, radius: 4.5, side: 8, height: 6)
+let oneCone = Cone(name: "One Cone", pi: Double.pi, radius: 4.5, side: 8.3, height: 6.2)
 
 //Tests
 oneCone.name
