@@ -1,12 +1,14 @@
 import Foundation
 
 struct Cone {
+    //Stored Properties
     var name: String
     var pi: Double
     var radius: Double
     var side: Double
     var height: Double
     
+    //Computed Properties
     var surfaceAreaOfBase: Double {
         return pi * (radius * radius)
     }
@@ -23,6 +25,8 @@ struct Cone {
 
 let oneCone = Cone(name: "One Cone", pi: Double.pi, radius: 4.5, side: 8, height: 6)
 
+//Tests
+oneCone.name
 oneCone.surfaceAreaOfBase
 oneCone.surfaceAreaOfLateralSurface
 oneCone.totalSurfaceArea
