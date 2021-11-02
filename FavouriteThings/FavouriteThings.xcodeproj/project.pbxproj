@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A34EB2C2731BD41001C83FF /* PhotosCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34EB2B2731BD41001C83FF /* PhotosCaptionView.swift */; };
 		5A69618A27270DD500D53FBA /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A69618927270DD500D53FBA /* FavouriteThingsListView.swift */; };
 		5A69618C2727992C00D53FBA /* HotpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A69618B2727992B00D53FBA /* HotpotView.swift */; };
 		5A69618E2727994B00D53FBA /* RamenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A69618D2727994B00D53FBA /* RamenView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A34EB2B2731BD41001C83FF /* PhotosCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCaptionView.swift; sourceTree = "<group>"; };
 		5A69618927270DD500D53FBA /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
 		5A69618B2727992B00D53FBA /* HotpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotpotView.swift; sourceTree = "<group>"; };
 		5A69618D2727994B00D53FBA /* RamenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamenView.swift; sourceTree = "<group>"; };
@@ -53,9 +55,18 @@
 				5A7289AB2720657B00E9F8A8 /* LavenderView.swift */,
 				5A69618B2727992B00D53FBA /* HotpotView.swift */,
 				5A69618D2727994B00D53FBA /* RamenView.swift */,
+				5A34EB2D2731BD4C001C83FF /* Shared */,
 				5A69618F272799FF00D53FBA /* RosesView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		5A34EB2D2731BD4C001C83FF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5A34EB2B2731BD41001C83FF /* PhotosCaptionView.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		5A72898F2720612D00E9F8A8 = {
@@ -171,6 +182,7 @@
 				5A69618A27270DD500D53FBA /* FavouriteThingsListView.swift in Sources */,
 				5A72899C2720612D00E9F8A8 /* FavouriteThingsApp.swift in Sources */,
 				5A7289AA2720653200E9F8A8 /* IceCreamView.swift in Sources */,
+				5A34EB2C2731BD41001C83FF /* PhotosCaptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,7 @@ struct LavenderView: View {
                     .resizable()
                     .scaledToFit()
                     .clipShape(Circle())
+                PhotosCaptionView()
                 
                 Text("I LOVE lavender scent :)")
                     .frame(width: 400, height: 70, alignment: .center)
