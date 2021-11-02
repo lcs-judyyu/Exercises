@@ -44,7 +44,7 @@ struct RamenView_Previews: PreviewProvider {
 struct ExtractedView: View {
     var body: some View {
         VStack(alignment: .leading){
-            Text ("A bowl of ramne that looks delicious")
+            Text ("A bowl of ramen that looks delicious")
                 .font(.caption)
             Text ("Online resource")
             

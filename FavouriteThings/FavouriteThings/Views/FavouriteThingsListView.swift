@@ -11,7 +11,21 @@ struct FavouriteThingsListView: View {
     var body: some View {
         List {
             NavigationLink(destination: ContentView()) {
-                Text("Chinchilla")
+                HStack {
+                    Image("Chinchilla")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 50, height: 50, alignment: .center)
+                        .clipped()
+                    
+                    VStack(alignment: .leading, spacing: 5) {
+                        Text("Chocolate")
+                            .bold()
+                        Text("He is so cute!")
+                            .italic()
+                            .font(.caption2)
+                    }
+                }
             }
             
             NavigationLink(destination: IceCreamView()) {

@@ -15,7 +15,7 @@ struct ContentView: View {
                     .resizable()
                     .scaledToFit()
                     .padding(8)
-                PhotosCaptionView()
+                PhotosCaptionView(caption: "placeholder", credit: "placeholder")
                 
                 Text("I have a chinchilla named Chocolate. (Not the one above) He is so cute!")
                     .frame(width: 300, height: 100, alignment: .center)
